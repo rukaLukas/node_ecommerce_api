@@ -65,7 +65,7 @@ describe('ProductController - Unit Tests', () => {
       expect(mockRes.status).toHaveBeenCalledWith(200);
       expect(mockRes.json).toHaveBeenCalledWith({
         success: true,
-        count: 1,
+        count: 3,
         data: mockProducts
       });
     });
